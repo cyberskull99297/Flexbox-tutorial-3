@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Flexbox Challenge 3</title>
+    <style>
+      .flexbox {           /*class for body*/
+        display: flex;     
+      }
+
+      nav {      
+        height: 850px;
+        width: 40%;
+        background-color: rgb(170, 170, 170);
+      }
+      .in-row {                /*class for header, article and footer*/
+        width: 1400px;
+        height: 250px;
+        background-color: lightgreen;
+        margin: 0px;
+        padding: 0px;
+      }
+      h1 {
+        margin: 0px;
+        padding: 30px;
+        font-weight: bolder;
+        font-size: xx-large;
+      }
+    </style>
+  </head>
+  <body class="flexbox">
+    <nav >
+      <h1>NAV</h1>
+    </nav>
+    <div >  <!--div that contains header, article and footer individual divs-->
+      <div class="in-row">
+        <h1>HEADER</h1>
+      </div>
+      <div class="in-row" style="background-color: white; height: 350px">
+        <h1>ARTICLE</h1>
+      </div>
+      <div class="in-row">
+        <h1>FOOTER</h1>
+        
+      </div>
+    </div>
+  </body>
+</html>
